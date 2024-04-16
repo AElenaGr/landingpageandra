@@ -378,18 +378,17 @@ $(function () {
     }
 
 
-// Función para reproducir/pausar el audio
-function toggleAudio() {
-	var audio = document.getElementById('audio-player');
-	if (audio.paused) {
-			audio.play();
-			document.getElementById('play-button').textContent = 'Pause';
-	} else {
-			audio.pause();
-			document.getElementById('play-button').textContent = 'Play';
-	}
-}
+		var audio = document.getElementById("game-audio");
 
+    function toggleAudio() {
+        if (audio.paused) {
+            audio.play();
+            document.getElementById("play-button").textContent = "Pause";
+        } else {
+            audio.pause();
+            document.getElementById("play-button").textContent = "Play";
+        }
+    }
 function descargarPDF(event) {
 	// Evitar que el navegador realice la acción por defecto, que sería seguir el enlace
 	event.preventDefault();

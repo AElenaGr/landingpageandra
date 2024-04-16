@@ -1028,7 +1028,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Color oscuro semitransparente */
+    background-color: rgba(0, 0, 0, 0.7); /* Color oscuro semitransparente */
 }
 
  .header {
@@ -1537,6 +1537,42 @@ color: #f00;
     align-items: center;
     margin-left: 58px; /* Ajusta este valor según lo que necesites */
 }
+
+#jugar {
+    /* background-color: #0fbbad;
+    color: white; */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.instruction-text {
+    font-family: Arial, sans-serif; /* Cambia la fuente a Arial o a otra de tu elección */
+    line-height: 1.8; /* Ajusta el espaciado entre líneas */
+    margin-bottom: 30px; /* Añade un margen inferior para separar los párrafos */
+    text-align: justify;
+  
+}
+/* #instrucciones{
+    text-decoration-line: line-through;
+} */
+
+.instruction-title {
+    border: 2px solid #52a66e; /* Establece un borde sólido de 2px de ancho con color verde */
+    padding: 10px; /* Añade un espacio interno alrededor del título */
+    color: #52a66e; /* Establece el color del texto */
+    text-align: center; /* Centra el texto */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+}
+/* #jugar:hover {
+    background-color: #f2a8f8;
+}
+ */
+
+
 
 
 /** end footer **/

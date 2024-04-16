@@ -120,6 +120,10 @@
          top: 0;
     }
 }
+
+
+
+
  @media (min-width: 1200px) and (max-width: 1500px) {
      .banner-main .carousel-caption {
          background: transparent;
